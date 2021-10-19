@@ -1,6 +1,6 @@
 baseURL: "https://gracezhang.netlify.app/"
 languageCode: en-us
-title: Gracez
+title: Gracezhang
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -111,5 +111,3 @@ params:
     subtitle: See what I do in the data analytics projects
     title: Data Analytics Projects
     url: blogs
-
-blogdown::serve_site()
