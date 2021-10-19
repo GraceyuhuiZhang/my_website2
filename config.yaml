@@ -21,7 +21,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: gzhang.mfa2022@london.edu
         title: Email
     enable: yes
     phone:
@@ -35,12 +35,12 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: LBS
+    copyright: Grace Zhang LBS
     enable: yes
-    quicklinks:
-      - alt: HTML5 UP
-        text: 'Design: '
-        url: https://www.html5up.net
+   #quicklinks:
+    # - alt: HTML5 UP
+       #text: 'Design: '
+      #url: https://www.html5up.net
     social:
       - icon: fa-twitter
         label: Twitter
@@ -58,7 +58,7 @@ params:
         label: LinkedIn
         url: https://www.linkedin.com
   image: ''
-  name: Your name
+  name: Grace ZHANG
   navigation:
     button1:
       - name: Get Started
@@ -81,38 +81,35 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
+      - image: lbs.jpg
+        subtitle: Biography
+        title: About Me
         url: blogs/aliquam
-      - image: pic02.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Tempus
-        url: blogs/tempus
-      - image: pic03.jpg
-        subtitle: Lorem Etiam Nullam
-        title: Magna
-        url: blogs/magna
-      - image: pic04.jpg
-        subtitle: Nisl Sed Aliquam
-        title: Ipsum
+      - image: p1.jpg
+        subtitle: Project01
+        title: Risk Return of DJIA stocks
+        url: blogs/risk_return.Rmd
+      - image: p6.jpg
+        subtitle: Winter2020
+        title: Beijing
+        # url: blogs/magna
+      - image: p5.jpg
+        subtitle: HKU2021
+        title: Graduation from undergrad school
         url: blogs/ipsum
-      - image: pic05.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Consequat
-        url: blogs/ipsum
-      - image: pic06.jpg
-        subtitle: Feugiat Amet Tempus
-        title: Etiam
-        url: blogs/ipsum
+      - image: p2.jpg
+        subtitle: SG2019
+        title: Singapore
+        # url: blogs/ipsum
+      - image: p3.jpg
+        subtitle: SG2019
+        title: Exchange
+        # url: blogs/ipsum
   two:
     buttonText: Get Started
     enable: yes
-    subtitle: "Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
-      \n    Mauris aliquet magna magna sed nunc rhoncus pharetra. \n    Pellentesque
-      condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia
-      pellentesque lorem ipsum dolor. \n    Nullam et orci eu lorem consequat tincidunt.
-      Vivamus et sagittis libero.\n    Mauris aliquet magna magna sed nunc rhoncus
-      amet pharetra et feugiat tempus."
-    title: Massa libero
+    subtitle: See what I do in the data analytics projects
+    title: Data Analytics Projects
     url: blogs
+
+blogdown::serve_site()
