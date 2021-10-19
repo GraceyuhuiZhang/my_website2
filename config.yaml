@@ -1,6 +1,6 @@
-baseURL: "https://gracez.netlify.app/"
+baseURL: https://gracezhang.netlify.app/
 languageCode: en-us
-title: Gracez
+title: Forty
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -8,15 +8,15 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      Grace Zhang
-      MFA 2022
-    title: Hi, my name is Forty
+      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
+      AND RELEASED UNDER THE CREATIVE COMMONS.
+    title: Hi, my name is Grace
   blog: {}
   contact:
     address:
-      - city: London
-        country: UK
-        street: Baker Street
+      - city: City, ST 00000
+        country: Country
+        street: Street
         title: Address
     buttonClear: Clear
     buttonSend: Send message
@@ -25,7 +25,7 @@ params:
         title: Email
     enable: yes
     phone:
-      - phone: (852) 69965901
+      - phone: (000) 000-0000 x1234
         title: Phone
   custom_css: []
   custom_js: []
@@ -35,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: LBS
+    copyright: Company Name
     enable: yes
     quicklinks:
       - alt: HTML5 UP
