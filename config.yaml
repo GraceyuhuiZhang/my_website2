@@ -1,6 +1,6 @@
 baseURL: "https://gracezhang.netlify.app/"
 languageCode: en-us
-title: Personal Website for Grace Zhang
+title: Gracez
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -8,9 +8,9 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Grace, MFA2022
+      Grace Zhang
+      MFA 2022
+    title: Hi, my name is Grace Zhang
   blog: {}
   contact:
     address:
@@ -21,7 +21,7 @@ params:
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: gzhang.mfa2022@london.edu
+      - email: example@domain.com
         title: Email
     enable: yes
     phone:
@@ -35,7 +35,7 @@ params:
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: London Business School
+    copyright: LBS
     enable: yes
     quicklinks:
       - alt: HTML5 UP
@@ -58,7 +58,7 @@ params:
         label: LinkedIn
         url: https://www.linkedin.com
   image: ''
-  name: Grace
+  name: Your name
   navigation:
     button1:
       - name: Get Started
